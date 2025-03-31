@@ -1,0 +1,1246 @@
+[
+  {
+    "name": "%",
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-%",
+    "description": "Gives random percentage from 0-100%."
+  },
+  {
+    "name": "a",
+    "aliases": [
+      "answer"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 0,
+    "userCooldown": 60,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "",
+    "description": ""
+  },
+  {
+    "name": "accept",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "",
+    "description": ""
+  },
+  {
+    "name": "add",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-add emote name/emote link as:new_name(optional)",
+    "description": ""
+  },
+  {
+    "name": "ban",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      ""
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-ban (user)",
+    "description": "bans a user in the chatroom"
+  },
+  {
+    "name": "bancmd",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-bancmd (user) (command)",
+    "description": "bans a user from using a command"
+  },
+  {
+    "name": "blackjack",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 0,
+    "userCooldown": 60,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-blackjack [points|all|percentage]",
+    "description": "plays a round of blackjack that you can use -stand or -hit to continue the hand"
+  },
+  {
+    "name": "blacklist",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "moderator": true,
+    "restrictedChannels": [
+      " "
+    ],
+    "globalCooldown": 10,
+    "userCooldown": 5,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-blacklist (user)",
+    "description": "blacklists a user from the bot"
+  },
+  {
+    "name": "blockterm",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-blockterm",
+    "description": "blocks a term in the chat if bot is modded"
+  },
+  {
+    "name": "cat",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-cat",
+    "description": "gives a random picture/gif of a cat"
+  },
+  {
+    "name": "chatterino",
+    "aliases": [
+      ""
+    ],
+    "message": "https://github.com/Chatterino/chatterino2/releases/latest 7TV \ud83d\udc49 https://github.com/SevenTV/chatterino7/releases/latest FeelsDankMan \ud83d\udc49 https://github.com/Mm2PL/dankerino/releases/latest \ud83e\udd13 \ud83d\udc49 https://github.com/2547techno/technorino/releases/latest Gayge \ud83d\udc49 https://github.com/LosFarmosCTL/chatterino2/releases/latest forsenPls \ud83d\udc49 https://github.com/felyp7/Forserino/releases/latest",
+    "active": true,
+    "restrictedChannels": [
+      "#emiru"
+    ],
+    "globalCooldown": 1000,
+    "userCooldown": 5,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-chatterino",
+    "description": "Links to popular Chatterino versions."
+  },
+  {
+    "name": "chatters",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "moderator": false,
+    "restrictedChannels": [
+      " "
+    ],
+    "globalCooldown": 5,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-chatters",
+    "description": "Lists all chatters"
+  },
+  {
+    "name": "checkban",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      ""
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-checkban (user)",
+    "description": "checks if a user is banned on twitch"
+  },
+  {
+    "name": "checkname",
+    "aliases": [
+      "cn",
+      "checkuser"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-checkname (name)",
+    "description": "checks if a name is available"
+  },
+  {
+    "name": "coinflip",
+    "aliases": [
+      "cf"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      "",
+      "#marisnot12"
+    ],
+    "globalCooldown": 1,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-coinflip",
+    "description": "Flips a coin and returns heads or tails."
+  },
+  {
+    "name": "color",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      "",
+      ""
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-color",
+    "description": "Shows user's color code, name, and rarity."
+  },
+  {
+    "name": "commands",
+    "aliases": [
+      "help"
+    ],
+    "message": "/me the commands for this channel: https://haste.potat.app/raw/214b",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 5,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-commands",
+    "description": "links to command site"
+  },
+  {
+    "name": "define",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-define [word]",
+    "description": "Provides a definition for the given word."
+  },
+  {
+    "name": "disable",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-disable (command)",
+    "description": "disables a command in the chat"
+  },
+  {
+    "name": "duel",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      "#emiru"
+    ],
+    "globalCooldown": 0,
+    "userCooldown": 60,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-dual {user} {points|all|percentage}",
+    "description": "duals a user for points, can be -accept or -deny"
+  },
+  {
+    "name": "elogs",
+    "aliases": [
+      "emotelogs"
+    ],
+    "message": "",
+    "active": true,
+    "moderator": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-elogs (channel)",
+    "description": "emote history of a channel"
+  },
+  {
+    "name": "enable",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-enable (command)",
+    "description": "enables a command that is disabled"
+  },
+  {
+    "name": "fl",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-fl",
+    "description": "first log of a user in the channel since tracked"
+  },
+  {
+    "name": "followage",
+    "aliases": [
+      "fa"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 1,
+    "userCooldown": 1,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-followage [user] [channel]",
+    "description": "Shows how long user has been following the channel."
+  },
+  {
+    "name": "founders",
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "userCooldown": 10,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-founders [channel]",
+    "description": "Shows the founders of a given channel."
+  },
+  {
+    "name": "gamble",
+    "aliases": [
+      "gamba"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      "#emiru"
+    ],
+    "globalCooldown": 0,
+    "userCooldown": 30,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-gamble [points|all|percentage]",
+    "description": "gambles points in a 50/50"
+  },
+  {
+    "name": "givepoints",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "moderator": false,
+    "restrictedChannels": [
+      "#emiru"
+    ],
+    "globalCooldown": 5,
+    "userCooldown": 5,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-givepoints {user} {points|all|percentage}",
+    "description": ""
+  },
+  {
+    "name": "join",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 30,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ", supibot, nightbot, streamelements, fossabot, potatbotat, spanixbot"
+    ],
+    "usage": "-join",
+    "description": "joins the users channel(only used in #hvdras)"
+  },
+  {
+    "name": "leaderboard",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-leaderboard",
+    "description": "provides leaderboard for points"
+  },
+  {
+    "name": "linklastfm",
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "cooldown": 1,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-linklastfm (lastfm user)",
+    "description": ""
+  },
+  {
+    "name": "logs",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      "#mundillou"
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-logs 'user'(optional) 'channel'(optional)",
+    "description": "gives logs site or logs of a user in a channel"
+  },
+  {
+    "name": "ls",
+    "aliases": [
+      "lastseen"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-ls 'user'",
+    "description": "shows the last time a user was seen in the current chat"
+  },
+  {
+    "name": "mc",
+    "aliases": [
+      "modcheck"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-mc [user] [channel]",
+    "description": "Shows if and how long the user is a mod in the channel."
+  },
+  {
+    "name": "mods",
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "userCooldown": 10,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-mods [channel]",
+    "description": "Shows the mod list of a channel."
+  },
+  {
+    "name": "offlineonly",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      ""
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-offlineonly 'on/off'",
+    "description": "turns on or off the offline only setting for the bot"
+  },
+  {
+    "name": "part",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-part",
+    "description": "parts the bot in the channel"
+  },
+  {
+    "name": "ping",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-ping",
+    "description": "Checks ping and uptime of the bot."
+  },
+  {
+    "name": "points",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      "#emiru"
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-points 'user'(optional)",
+    "description": "gives the points of you or another user"
+  },
+  {
+    "name": "pokemon",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-pokemon 'number'/'name'(optional)",
+    "description": "gives information about a pokemon or random pokemon"
+  },
+  {
+    "name": "RaccAttack",
+    "aliases": [
+      " RaccAttack"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      ""
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-RaccAttack [user]",
+    "description": "Pulls 7TV and channel emotes for a channel."
+  },
+  {
+    "name": "remove",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-remove 'emote name'",
+    "description": "removes the emote from the channel"
+  },
+  {
+    "name": "rename",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-rename 'current emote' 'new name'",
+    "description": "renames a current emote to another name provided"
+  },
+  {
+    "name": "rhe",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-rhe 'date'(optional)",
+    "description": "gives a random historical event on a random date or specified date"
+  },
+  {
+    "name": "rl",
+    "aliases": [
+      "randomlog"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 5,
+    "userCooldown": 30,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-rl",
+    "description": "gives a random line from the chat history"
+  },
+  {
+    "name": "roll",
+    "aliases": [
+      "r"
+    ],
+    "message": "",
+    "active": true,
+    "moderator": false,
+    "restrictedChannels": [
+      " "
+    ],
+    "globalCooldown": 1,
+    "userCooldown": 10,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-roll [max number]",
+    "description": "Rolls a random number from 1 to the max number."
+  },
+  {
+    "name": "rollpoints",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      "#emiru"
+    ],
+    "globalCooldown": 0,
+    "userCooldown": 100,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-rollpoints",
+    "description": "rolls points from anywhere 1-10000"
+  },
+  {
+    "name": "rq",
+    "aliases": [
+      "randomquote"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      "#mattguz",
+      "#emiru"
+    ],
+    "globalCooldown": 5,
+    "userCooldown": 30,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-rq",
+    "description": "gives a random log from your account in that channel"
+  },
+  {
+    "name": "set",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-set",
+    "description": "shows how many emotes are in current 7tv emote set"
+  },
+  {
+    "name": "setprefix",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-setprefix 'prefix'",
+    "description": "sets channel prefix to whatever is requested"
+  },
+  {
+    "name": "seventv",
+    "aliases": [
+      "7tv"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      ""
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-7tv [emote name]",
+    "description": "Searches for an emote on 7TV."
+  },
+  {
+    "name": "slots",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 0,
+    "userCooldown": 30,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-slots [points|all|percentage]",
+    "description": "uses points to play slots"
+  },
+  {
+    "name": "song",
+    "aliases": [
+      "lastfm"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-song 'last.fm user'(optional)",
+    "description": "Shows current song for you or the specified user."
+  },
+  {
+    "name": "steal",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      "#emiru"
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-steal 'user'",
+    "description": "steals points from a user"
+  },
+  {
+    "name": "streaminfo",
+    "aliases": [
+      "si"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-streaminfo [channel]",
+    "description": "Shows stream information for the given channel."
+  },
+  {
+    "name": "subage",
+    "aliases": [
+      "sa"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 2,
+    "userCooldown": 2,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-subage [user] [channel]",
+    "description": "Displays subscription age for user in a channel."
+  },
+  {
+    "name": "timeout",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      ""
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-timeout 'user' 'length'",
+    "description": "times out a user from the chat"
+  },
+  {
+    "name": "topartists",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-topartists [last.fm user]",
+    "description": "Displays top 5 artists for you or the specified user."
+  },
+  {
+    "name": "toppoints",
+    "aliases": [
+      "tp"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-toppoints",
+    "description": "provides the top 3 users on the leaderboard"
+  },
+  {
+    "name": "toptracks",
+    "aliases": [
+      "topsongs"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-topsongs [last.fm user]",
+    "description": "Displays top 5 songs for you or the specified user."
+  },
+  {
+    "name": "trivia",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      "hvdras"
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 600,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-trivia",
+    "description": "gives a trivia question"
+  },
+  {
+    "name": "u",
+    "aliases": [
+      "user"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-u 'user'",
+    "description": "gives user information"
+  },
+  {
+    "name": "unban",
+    "aliases": [
+      "untimeout"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      ""
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-unban 'user'",
+    "description": "untimes out or unbans a user"
+  },
+  {
+    "name": "unbancmd",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-unbancmd 'user' 'command'",
+    "description": "unbans a user from being banned from a command"
+  },
+  {
+    "name": "unblacklist",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "moderator": true,
+    "restrictedChannels": [
+      " "
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-unblacklist 'user'",
+    "description": "unblacklists a user who is blacklisted"
+  },
+  {
+    "name": "unblockterm",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-unblockterm 'blocked term'",
+    "description": "unblocks a currently blocked term"
+  },
+  {
+    "name": "vanish",
+    "message": "",
+    "active": true,
+    "restrictedChannels": [
+      "#cinna",
+      "#emiru"
+    ],
+    "globalCooldown": 0,
+    "userCooldown": 5,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-vanish",
+    "description": "Times user out for 1s to hide their messages if bot is modded."
+  },
+  {
+    "name": "vanity",
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-vanity [user]",
+    "description": "Shows 7TV vanity/badges."
+  },
+  {
+    "name": "vc",
+    "aliases": [
+      "vipcheck"
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-vc 'user' 'channel'",
+    "description": "checks if a user is vip'd in a channel"
+  },
+  {
+    "name": "vips",
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "userCooldown": 10,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-vips [channel]",
+    "description": "Lists VIPs of a channel."
+  },
+  {
+    "name": "warn",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "restrictedChannels": [],
+    "globalCooldown": 0,
+    "userCooldown": 0,
+    "offlineOnly": true,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-warn 'user' 'reason'",
+    "description": "warns a user in the chatroom"
+  },
+
+  {
+    "name": "yoink",
+    "aliases": [
+      ""
+    ],
+    "message": "",
+    "active": true,
+    "moderator": true,
+    "restrictedChannels": [
+      "#cinna",
+      "#mattguz",
+      "#markzynk",
+      "#nicsumii",
+      "#emiru"
+    ],
+    "globalCooldown": 3,
+    "userCooldown": 3,
+    "offlineOnly": false,
+    "blacklistedUsers": [
+      ""
+    ],
+    "usage": "-yoink 'emotename' '#channel'",
+    "description": "yoinks an emote from another channel"
+  }
+]
