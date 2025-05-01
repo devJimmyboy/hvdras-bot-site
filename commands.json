@@ -53,7 +53,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-add emote name/emote link as:new_name(optional)",
-    "description": "",
+    "description": "Adds a 7tv emote to the channel",
     "category": "7tv"
   },
   {
@@ -67,7 +67,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-ban (user)",
-    "description": "bans a user in the chatroom",
+    "description": "Bans a user in the chatroom",
     "category": "Moderation"
   },
   {
@@ -81,7 +81,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-bancmd (user) (command)",
-    "description": "bans a user from using a command",
+    "description": "Bans a user from using a command",
     "category": "Moderation"
   },
   {
@@ -95,7 +95,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-blackjack [points|all|percentage]",
-    "description": "plays a round of blackjack that you can use -stand or -hit to continue the hand",
+    "description": "Plays a round of blackjack that you can use -stand or -hit to continue the hand",
     "category": "Points"
   },
   {
@@ -112,7 +112,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-blacklist (user)",
-    "description": "blacklists a user from the bot",
+    "description": "Blacklists a user from the bot",
     "category": "Moderation"
   },
   {
@@ -126,7 +126,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-blockterm",
-    "description": "blocks a term in the chat if bot is modded",
+    "description": "Blocks a term in the chat if bot is modded",
     "category": "Moderation"
   },
   {
@@ -140,7 +140,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-cat",
-    "description": "gives a random picture/gif of a cat",
+    "description": "Gives a random picture/gif of a cat",
     "category": "Fun"
   },
   {
@@ -187,7 +187,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-checkban (user)",
-    "description": "checks if a user is banned on twitch",
+    "description": "Checks if a user is banned on twitch",
     "category": "Utility"
   },
   {
@@ -204,7 +204,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-checkname (name)",
-    "description": "checks if a name is available",
+    "description": "Checks if a name is available",
     "category": "Utility"
   },
   {
@@ -252,7 +252,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-commands",
-    "description": "links to command site",
+    "description": "Links to command site",
     "category": "Utility"
   },
   {
@@ -280,7 +280,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-disable (command)",
-    "description": "disables a command in the chat",
+    "description": "Disables a command in the chat",
     "category": "Moderation"
   },
   {
@@ -296,7 +296,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-duel {user} {points|all|percentage}",
-    "description": "duels a user for points, can be -accept or -deny",
+    "description": "Duels a user for points, can be -accept or -deny",
     "category": "Points"
   },
   {
@@ -313,7 +313,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-elogs (channel)",
-    "description": "emote history of a channel",
+    "description": "Gives the emote history of a channel",
     "category": "Moderation"
   },
   {
@@ -327,7 +327,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-enable (command)",
-    "description": "enables a command that is disabled",
+    "description": "Enables a command that is disabled",
     "category": "Moderation"
   },
   {
@@ -341,7 +341,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-fl",
-    "description": "first log of a user in the channel since tracked",
+    "description": "First log of a user in the channel since tracked",
     "category": "Logs"
   },
   {
@@ -386,7 +386,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-gamble [points|all|percentage]",
-    "description": "gambles points in a 50/50",
+    "description": "Gambles points in a 50/50",
     "category": "Points"
   },
   {
@@ -403,7 +403,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-givepoints {user} {points|all|percentage}",
-    "description": "",
+    "description": "Gives points to a user",
     "category": "Points"
   },
   {
@@ -419,7 +419,7 @@
       ", supibot, nightbot, streamelements, fossabot, potatbotat, spanixbot"
     ],
     "usage": "-join",
-    "description": "joins the users channel(only used in #hvdras)",
+    "description": "Joins the users channel(only used in #hvdras)",
     "category": "Moderation"
   },
   {
@@ -433,7 +433,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-leaderboard",
-    "description": "provides leaderboard for points",
+    "description": "Provides leaderboard for points",
     "category": "Points"
   },
   {
@@ -460,7 +460,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-logs 'user'(optional) 'channel'(optional)",
-    "description": "gives logs site or logs of a user in a channel",
+    "description": "Gives logs site or logs of a user in a channel",
     "category": "Logs"
   },
   {
@@ -476,7 +476,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-ls 'user'",
-    "description": "shows the last time a user was seen in the current chat",
+    "description": "Shows the last time a user was seen in the current chat",
     "category": "Logs"
   },
   {
@@ -517,7 +517,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-offlineonly 'on/off'",
-    "description": "turns on or off the offline only setting for the bot",
+    "description": "Turns on or off the offline only setting for the bot",
     "category": "Moderation"
   },
   {
@@ -531,7 +531,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-part",
-    "description": "parts the bot in the channel",
+    "description": "Parts the bot from the channel",
     "category": "Moderation"
   },
   {
@@ -561,7 +561,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-points 'user'(optional)",
-    "description": "gives the points of you or another user",
+    "description": "Gives the points of you or another user",
     "category": "Points"
   },
   {
@@ -575,7 +575,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-pokemon 'number'/'name'(optional)",
-    "description": "gives information about a pokemon or random pokemon",
+    "description": "Gives information about a pokemon or random pokemon",
     "category": "Fun"
   },
   {
@@ -605,7 +605,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-remove 'emote name'",
-    "description": "removes the emote from the channel",
+    "description": "Removes the emote from the channel",
     "category": "7tv"
   },
   {
@@ -619,7 +619,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-rename 'current emote' 'new name'",
-    "description": "renames a current emote to another name provided",
+    "description": "Renames a current emote to another name provided",
     "category": "7tv"
   },
   {
@@ -633,13 +633,13 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-rhe 'date'(optional)",
-    "description": "gives a random historical event on a random date or specified date",
+    "description": "Gives a random historical event on a random date or specified date",
     "category": "Fun"
   },
   {
-    "name": "rl",
+    "name": "randomlog",
     "aliases": [
-      "randomlog"
+      "rl"
     ],
     "message": "",
     "active": true,
@@ -649,7 +649,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-rl",
-    "description": "gives a random line from the chat history",
+    "description": "Gives a random line from the chat history",
     "category": "Logs"
   },
   {
@@ -684,13 +684,13 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-rollpoints",
-    "description": "rolls points from anywhere 1-10000",
+    "description": "Rolls points from anywhere 1-10000",
     "category": "Points"
   },
   {
-    "name": "rq",
+    "name": "randomquote",
     "aliases": [
-      "randomquote"
+      "rq"
     ],
     "message": "",
     "active": true,
@@ -703,7 +703,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-rq",
-    "description": "gives a random log from your account in that channel",
+    "description": "Gives a random log from your account in that channel",
     "category": "Logs"
   },
   {
@@ -717,7 +717,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-set",
-    "description": "shows how many emotes are in current 7tv emote set",
+    "description": "Shows how many emotes are in current 7tv emote set",
     "category": "7tv"
   },
   {
@@ -731,7 +731,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-setprefix 'prefix'",
-    "description": "sets channel prefix to whatever is requested",
+    "description": "Sets channel prefix to whatever is requested",
     "category": "Moderation"
   },
   {
@@ -761,7 +761,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-slots [points|all|percentage]",
-    "description": "uses points to play slots",
+    "description": "Uses points to play slots",
     "category": "Points"
   },
   {
@@ -793,7 +793,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-steal 'user'",
-    "description": "steals points from a user",
+    "description": "Steals points from a user",
     "category": "Points"
   },
   {
@@ -839,7 +839,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-timeout 'user' 'length'",
-    "description": "times out a user from the chat",
+    "description": "Times out a user from the chat",
     "category": "Moderation"
   },
   {
@@ -869,7 +869,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-toppoints",
-    "description": "provides the top 3 users on the leaderboard",
+    "description": "Provides the top 3 users on the leaderboard",
     "category": "Points"
   },
   {
@@ -901,7 +901,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-trivia",
-    "description": "gives a trivia question",
+    "description": "Gives a trivia question",
     "category": "Points"
   },
   {
@@ -917,7 +917,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-u 'user'",
-    "description": "gives user information",
+    "description": "Gives user information",
     "category": "Utility"
   },
   {
@@ -933,7 +933,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-unban 'user'",
-    "description": "untimes out or unbans a user",
+    "description": "Untimes out or unbans a user",
     "category": "Moderation"
   },
   {
@@ -947,7 +947,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-unbancmd 'user' 'command'",
-    "description": "unbans a user from being banned from a command",
+    "description": "Unbans a user from being banned from a command",
     "category": "Moderation"
   },
   {
@@ -964,7 +964,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-unblacklist 'user'",
-    "description": "unblacklists a user who is blacklisted",
+    "description": "Unblacklists a user who is blacklisted",
     "category": "Moderation"
   },
   {
@@ -978,7 +978,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-unblockterm 'blocked term'",
-    "description": "unblocks a currently blocked term",
+    "description": "Unblocks a currently blocked term",
     "category": "Moderation"
   },
   {
@@ -1010,9 +1010,9 @@
     "category": "7tv"
   },
   {
-    "name": "vc",
+    "name": "vipcheck",
     "aliases": [
-      "vipcheck"
+      "vc"
     ],
     "message": "",
     "active": true,
@@ -1022,7 +1022,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-vc 'user' 'channel'",
-    "description": "checks if a user is vip'd in a channel",
+    "description": "Checks if a user is vip'd in a channel",
     "category": "Utility"
   },
   {
@@ -1047,7 +1047,7 @@
     "offlineOnly": true,
     "blacklistedUsers": [],
     "usage": "-warn 'user' 'reason'",
-    "description": "warns a user in the chatroom",
+    "description": "Warns a user in the chatroom",
     "category": "Moderation"
   },
   {
@@ -1068,7 +1068,7 @@
     "offlineOnly": false,
     "blacklistedUsers": [],
     "usage": "-yoink 'emotename' '#channel'",
-    "description": "yoinks an emote from another channel",
+    "description": "Yoinks an emote from another channel",
     "category": "7tv"
   }
 ]
