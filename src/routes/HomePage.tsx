@@ -5,7 +5,7 @@ type Props = {}
 export default function HomePage({}: Props) {
   return (
     <Stack align="center" justify="center" h="100%">
-      <img src="https://cdn.7tv.app/emote/01HNK8DGF0000FG935RNS75APG/4x.webp" alt="Logo" className="w-32 h-32 rounded-lg drop-shadow-lg drop-shadow-black/60" />
+      <img src="https://cdn.7tv.app/emote/01HNK8DGF0000FG935RNS75APG/4x.png" alt="Logo" className="w-32 h-32 rounded-lg drop-shadow-lg drop-shadow-black/60" />
       <div className="text-4xl font-bold text-shadow-md text-shadow-black text-white">Hvdras Bot</div>
       <div className="text-2xl font-bold text-shadow-md text-shadow-black">a dumbassbitchassidiot bot</div>
       <div className="text-2xl font-bold text-shadow-md text-shadow-black mt-4">
