@@ -7,11 +7,10 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-%",
-    "description": "Gives random percentage from 0-100%."
+    "description": "Gives random percentage from 0-100%.",
+    "category": "Fun"
   },
   {
     "name": "a",
@@ -24,104 +23,84 @@
     "globalCooldown": 0,
     "userCooldown": 60,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "",
-    "description": ""
+    "description": "",
+    "category": "Points"
   },
   {
     "name": "accept",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "",
-    "description": ""
+    "description": "",
+    "category": "Other"
   },
   {
     "name": "add",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-add emote name/emote link as:new_name(optional)",
-    "description": ""
+    "description": "",
+    "category": "7tv"
   },
   {
     "name": "ban",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
-    "restrictedChannels": [
-      ""
-    ],
+    "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-ban (user)",
-    "description": "bans a user in the chatroom"
+    "description": "bans a user in the chatroom",
+    "category": "Moderation"
   },
   {
     "name": "bancmd",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-bancmd (user) (command)",
-    "description": "bans a user from using a command"
+    "description": "bans a user from using a command",
+    "category": "Moderation"
   },
   {
     "name": "blackjack",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 0,
     "userCooldown": 60,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-blackjack [points|all|percentage]",
-    "description": "plays a round of blackjack that you can use -stand or -hit to continue the hand"
+    "description": "plays a round of blackjack that you can use -stand or -hit to continue the hand",
+    "category": "Points"
   },
   {
     "name": "blacklist",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "moderator": true,
@@ -131,51 +110,42 @@
     "globalCooldown": 10,
     "userCooldown": 5,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-blacklist (user)",
-    "description": "blacklists a user from the bot"
+    "description": "blacklists a user from the bot",
+    "category": "Moderation"
   },
   {
     "name": "blockterm",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-blockterm",
-    "description": "blocks a term in the chat if bot is modded"
+    "description": "blocks a term in the chat if bot is modded",
+    "category": "Moderation"
   },
   {
     "name": "cat",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-cat",
-    "description": "gives a random picture/gif of a cat"
+    "description": "gives a random picture/gif of a cat",
+    "category": "Fun"
   },
   {
     "name": "chatterino",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "https://github.com/Chatterino/chatterino2/releases/latest 7TV \ud83d\udc49 https://github.com/SevenTV/chatterino7/releases/latest FeelsDankMan \ud83d\udc49 https://github.com/Mm2PL/dankerino/releases/latest \ud83e\udd13 \ud83d\udc49 https://github.com/2547techno/technorino/releases/latest Gayge \ud83d\udc49 https://github.com/LosFarmosCTL/chatterino2/releases/latest forsenPls \ud83d\udc49 https://github.com/felyp7/Forserino/releases/latest",
     "active": true,
     "restrictedChannels": [
@@ -184,17 +154,14 @@
     "globalCooldown": 1000,
     "userCooldown": 5,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-chatterino",
-    "description": "Links to popular Chatterino versions."
+    "description": "Links to popular Chatterino versions.",
+    "category": "Information"
   },
   {
     "name": "chatters",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "moderator": false,
@@ -204,30 +171,24 @@
     "globalCooldown": 5,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-chatters",
-    "description": "Lists all chatters"
+    "description": "Lists all chatters",
+    "category": "Utility"
   },
   {
     "name": "checkban",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
-    "restrictedChannels": [
-      ""
-    ],
+    "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-checkban (user)",
-    "description": "checks if a user is banned on twitch"
+    "description": "checks if a user is banned on twitch",
+    "category": "Utility"
   },
   {
     "name": "checkname",
@@ -241,11 +202,10 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-checkname (name)",
-    "description": "checks if a name is available"
+    "description": "checks if a name is available",
+    "category": "Utility"
   },
   {
     "name": "coinflip",
@@ -255,37 +215,29 @@
     "message": "",
     "active": true,
     "restrictedChannels": [
-      "",
       "#marisnot12"
     ],
     "globalCooldown": 1,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-coinflip",
-    "description": "Flips a coin and returns heads or tails."
+    "description": "Flips a coin and returns heads or tails.",
+    "category": "Fun"
   },
   {
     "name": "color",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
-    "restrictedChannels": [
-      "",
-      ""
-    ],
+    "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-color",
-    "description": "Shows user's color code, name, and rarity."
+    "description": "Shows user's color code, name, and rarity.",
+    "category": "Utility"
   },
   {
     "name": "commands",
@@ -298,51 +250,42 @@
     "globalCooldown": 5,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-commands",
-    "description": "links to command site"
+    "description": "links to command site",
+    "category": "Utility"
   },
   {
     "name": "define",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-define [word]",
-    "description": "Provides a definition for the given word."
+    "description": "Provides a definition for the given word.",
+    "category": "Utility"
   },
   {
     "name": "disable",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-disable (command)",
-    "description": "disables a command in the chat"
+    "description": "disables a command in the chat",
+    "category": "Moderation"
   },
   {
     "name": "duel",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [
@@ -351,11 +294,10 @@
     "globalCooldown": 0,
     "userCooldown": 60,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
-    "usage": "-dual {user} {points|all|percentage}",
-    "description": "duals a user for points, can be -accept or -deny"
+    "blacklistedUsers": [],
+    "usage": "-duel {user} {points|all|percentage}",
+    "description": "duels a user for points, can be -accept or -deny",
+    "category": "Points"
   },
   {
     "name": "elogs",
@@ -369,45 +311,38 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-elogs (channel)",
-    "description": "emote history of a channel"
+    "description": "emote history of a channel",
+    "category": "Moderation"
   },
   {
     "name": "enable",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-enable (command)",
-    "description": "enables a command that is disabled"
+    "description": "enables a command that is disabled",
+    "category": "Moderation"
   },
   {
     "name": "fl",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-fl",
-    "description": "first log of a user in the channel since tracked"
+    "description": "first log of a user in the channel since tracked",
+    "category": "Logs"
   },
   {
     "name": "followage",
@@ -420,11 +355,10 @@
     "globalCooldown": 1,
     "userCooldown": 1,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-followage [user] [channel]",
-    "description": "Shows how long user has been following the channel."
+    "description": "Shows how long user has been following the channel.",
+    "category": "Utility"
   },
   {
     "name": "founders",
@@ -432,11 +366,10 @@
     "active": true,
     "restrictedChannels": [],
     "userCooldown": 10,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-founders [channel]",
-    "description": "Shows the founders of a given channel."
+    "description": "Shows the founders of a given channel.",
+    "category": "Utility"
   },
   {
     "name": "gamble",
@@ -451,17 +384,14 @@
     "globalCooldown": 0,
     "userCooldown": 30,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-gamble [points|all|percentage]",
-    "description": "gambles points in a 50/50"
+    "description": "gambles points in a 50/50",
+    "category": "Points"
   },
   {
     "name": "givepoints",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "moderator": false,
@@ -471,17 +401,14 @@
     "globalCooldown": 5,
     "userCooldown": 5,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-givepoints {user} {points|all|percentage}",
-    "description": ""
+    "description": "",
+    "category": "Points"
   },
   {
     "name": "join",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
@@ -492,24 +419,22 @@
       ", supibot, nightbot, streamelements, fossabot, potatbotat, spanixbot"
     ],
     "usage": "-join",
-    "description": "joins the users channel(only used in #hvdras)"
+    "description": "joins the users channel(only used in #hvdras)",
+    "category": "Moderation"
   },
   {
     "name": "leaderboard",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-leaderboard",
-    "description": "provides leaderboard for points"
+    "description": "provides leaderboard for points",
+    "category": "Points"
   },
   {
     "name": "linklastfm",
@@ -517,17 +442,14 @@
     "active": true,
     "restrictedChannels": [],
     "cooldown": 1,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-linklastfm (lastfm user)",
-    "description": ""
+    "description": "Links LastFM account to User for usage with -song",
+    "category": "Other"
   },
   {
     "name": "logs",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [
@@ -536,11 +458,10 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-logs 'user'(optional) 'channel'(optional)",
-    "description": "gives logs site or logs of a user in a channel"
+    "description": "gives logs site or logs of a user in a channel",
+    "category": "Logs"
   },
   {
     "name": "ls",
@@ -553,11 +474,10 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-ls 'user'",
-    "description": "shows the last time a user was seen in the current chat"
+    "description": "shows the last time a user was seen in the current chat",
+    "category": "Logs"
   },
   {
     "name": "mc",
@@ -570,11 +490,10 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-mc [user] [channel]",
-    "description": "Shows if and how long the user is a mod in the channel."
+    "description": "Shows if and how long the user is a mod in the channel.",
+    "category": "Utility"
   },
   {
     "name": "mods",
@@ -582,70 +501,56 @@
     "active": true,
     "restrictedChannels": [],
     "userCooldown": 10,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-mods [channel]",
-    "description": "Shows the mod list of a channel."
+    "description": "Shows the mod list of a channel.",
+    "category": "Utility"
   },
   {
     "name": "offlineonly",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
-    "restrictedChannels": [
-      ""
-    ],
+    "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-offlineonly 'on/off'",
-    "description": "turns on or off the offline only setting for the bot"
+    "description": "turns on or off the offline only setting for the bot",
+    "category": "Moderation"
   },
   {
     "name": "part",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-part",
-    "description": "parts the bot in the channel"
+    "description": "parts the bot in the channel",
+    "category": "Moderation"
   },
   {
     "name": "ping",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-ping",
-    "description": "Checks ping and uptime of the bot."
+    "description": "Checks ping and uptime of the bot.",
+    "category": "Utility"
   },
   {
     "name": "points",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [
@@ -654,28 +559,24 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-points 'user'(optional)",
-    "description": "gives the points of you or another user"
+    "description": "gives the points of you or another user",
+    "category": "Points"
   },
   {
     "name": "pokemon",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-pokemon 'number'/'name'(optional)",
-    "description": "gives information about a pokemon or random pokemon"
+    "description": "gives information about a pokemon or random pokemon",
+    "category": "Fun"
   },
   {
     "name": "RaccAttack",
@@ -684,68 +585,56 @@
     ],
     "message": "",
     "active": true,
-    "restrictedChannels": [
-      ""
-    ],
+    "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-RaccAttack [user]",
-    "description": "Pulls 7TV and channel emotes for a channel."
+    "description": "Pulls 7TV and channel emotes for a channel.",
+    "category": "Information"
   },
   {
     "name": "remove",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-remove 'emote name'",
-    "description": "removes the emote from the channel"
+    "description": "removes the emote from the channel",
+    "category": "7tv"
   },
   {
     "name": "rename",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-rename 'current emote' 'new name'",
-    "description": "renames a current emote to another name provided"
+    "description": "renames a current emote to another name provided",
+    "category": "7tv"
   },
   {
     "name": "rhe",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-rhe 'date'(optional)",
-    "description": "gives a random historical event on a random date or specified date"
+    "description": "gives a random historical event on a random date or specified date",
+    "category": "Fun"
   },
   {
     "name": "rl",
@@ -758,11 +647,10 @@
     "globalCooldown": 5,
     "userCooldown": 30,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-rl",
-    "description": "gives a random line from the chat history"
+    "description": "gives a random line from the chat history",
+    "category": "Logs"
   },
   {
     "name": "roll",
@@ -778,17 +666,14 @@
     "globalCooldown": 1,
     "userCooldown": 10,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-roll [max number]",
-    "description": "Rolls a random number from 1 to the max number."
+    "description": "Rolls a random number from 1 to the max number.",
+    "category": "Fun"
   },
   {
     "name": "rollpoints",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [
@@ -797,11 +682,10 @@
     "globalCooldown": 0,
     "userCooldown": 100,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-rollpoints",
-    "description": "rolls points from anywhere 1-10000"
+    "description": "rolls points from anywhere 1-10000",
+    "category": "Points"
   },
   {
     "name": "rq",
@@ -817,45 +701,38 @@
     "globalCooldown": 5,
     "userCooldown": 30,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-rq",
-    "description": "gives a random log from your account in that channel"
+    "description": "gives a random log from your account in that channel",
+    "category": "Logs"
   },
   {
     "name": "set",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-set",
-    "description": "shows how many emotes are in current 7tv emote set"
+    "description": "shows how many emotes are in current 7tv emote set",
+    "category": "7tv"
   },
   {
     "name": "setprefix",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-setprefix 'prefix'",
-    "description": "sets channel prefix to whatever is requested"
+    "description": "sets channel prefix to whatever is requested",
+    "category": "Moderation"
   },
   {
     "name": "seventv",
@@ -864,34 +741,28 @@
     ],
     "message": "",
     "active": true,
-    "restrictedChannels": [
-      ""
-    ],
+    "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-7tv [emote name]",
-    "description": "Searches for an emote on 7TV."
+    "description": "Searches for an emote on 7TV.",
+    "category": "7tv"
   },
   {
     "name": "slots",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 0,
     "userCooldown": 30,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-slots [points|all|percentage]",
-    "description": "uses points to play slots"
+    "description": "uses points to play slots",
+    "category": "Points"
   },
   {
     "name": "song",
@@ -904,17 +775,14 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-song 'last.fm user'(optional)",
-    "description": "Shows current song for you or the specified user."
+    "description": "Shows current song for you or the specified user.",
+    "category": "Fun"
   },
   {
     "name": "steal",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [
@@ -923,11 +791,10 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-steal 'user'",
-    "description": "steals points from a user"
+    "description": "steals points from a user",
+    "category": "Points"
   },
   {
     "name": "streaminfo",
@@ -940,11 +807,10 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-streaminfo [channel]",
-    "description": "Shows stream information for the given channel."
+    "description": "Shows stream information for the given channel.",
+    "category": "Utility"
   },
   {
     "name": "subage",
@@ -957,47 +823,38 @@
     "globalCooldown": 2,
     "userCooldown": 2,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-subage [user] [channel]",
-    "description": "Displays subscription age for user in a channel."
+    "description": "Displays subscription age for user in a channel.",
+    "category": "Utility"
   },
   {
     "name": "timeout",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
-    "restrictedChannels": [
-      ""
-    ],
+    "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-timeout 'user' 'length'",
-    "description": "times out a user from the chat"
+    "description": "times out a user from the chat",
+    "category": "Moderation"
   },
   {
     "name": "topartists",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-topartists [last.fm user]",
-    "description": "Displays top 5 artists for you or the specified user."
+    "description": "Displays top 5 artists for you or the specified user.",
+    "category": "Fun"
   },
   {
     "name": "toppoints",
@@ -1010,11 +867,10 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-toppoints",
-    "description": "provides the top 3 users on the leaderboard"
+    "description": "provides the top 3 users on the leaderboard",
+    "category": "Points"
   },
   {
     "name": "toptracks",
@@ -1027,17 +883,14 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-topsongs [last.fm user]",
-    "description": "Displays top 5 songs for you or the specified user."
+    "description": "Displays top 5 songs for you or the specified user.",
+    "category": "Fun"
   },
   {
     "name": "trivia",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [
@@ -1046,11 +899,10 @@
     "globalCooldown": 3,
     "userCooldown": 600,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-trivia",
-    "description": "gives a trivia question"
+    "description": "gives a trivia question",
+    "category": "Points"
   },
   {
     "name": "u",
@@ -1063,11 +915,10 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-u 'user'",
-    "description": "gives user information"
+    "description": "gives user information",
+    "category": "Utility"
   },
   {
     "name": "unban",
@@ -1076,40 +927,32 @@
     ],
     "message": "",
     "active": true,
-    "restrictedChannels": [
-      ""
-    ],
+    "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-unban 'user'",
-    "description": "untimes out or unbans a user"
+    "description": "untimes out or unbans a user",
+    "category": "Moderation"
   },
   {
     "name": "unbancmd",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-unbancmd 'user' 'command'",
-    "description": "unbans a user from being banned from a command"
+    "description": "unbans a user from being banned from a command",
+    "category": "Moderation"
   },
   {
     "name": "unblacklist",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "moderator": true,
@@ -1119,28 +962,24 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-unblacklist 'user'",
-    "description": "unblacklists a user who is blacklisted"
+    "description": "unblacklists a user who is blacklisted",
+    "category": "Moderation"
   },
   {
     "name": "unblockterm",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-unblockterm 'blocked term'",
-    "description": "unblocks a currently blocked term"
+    "description": "unblocks a currently blocked term",
+    "category": "Moderation"
   },
   {
     "name": "vanish",
@@ -1153,11 +992,10 @@
     "globalCooldown": 0,
     "userCooldown": 5,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-vanish",
-    "description": "Times user out for 1s to hide their messages if bot is modded."
+    "description": "Times user out for 1s to hide their messages if bot is modded.",
+    "category": "Utility"
   },
   {
     "name": "vanity",
@@ -1166,11 +1004,10 @@
     "restrictedChannels": [],
     "globalCooldown": 3,
     "userCooldown": 3,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-vanity [user]",
-    "description": "Shows 7TV vanity/badges."
+    "description": "Shows 7TV vanity/badges.",
+    "category": "7tv"
   },
   {
     "name": "vc",
@@ -1183,11 +1020,10 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-vc 'user' 'channel'",
-    "description": "checks if a user is vip'd in a channel"
+    "description": "checks if a user is vip'd in a channel",
+    "category": "Utility"
   },
   {
     "name": "vips",
@@ -1195,35 +1031,28 @@
     "active": true,
     "restrictedChannels": [],
     "userCooldown": 10,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-vips [channel]",
-    "description": "Lists VIPs of a channel."
+    "description": "Lists VIPs of a channel.",
+    "category": "Utility"
   },
   {
     "name": "warn",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "restrictedChannels": [],
     "globalCooldown": 0,
     "userCooldown": 0,
     "offlineOnly": true,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-warn 'user' 'reason'",
-    "description": "warns a user in the chatroom"
+    "description": "warns a user in the chatroom",
+    "category": "Moderation"
   },
-
   {
     "name": "yoink",
-    "aliases": [
-      ""
-    ],
+    "aliases": [],
     "message": "",
     "active": true,
     "moderator": true,
@@ -1237,10 +1066,9 @@
     "globalCooldown": 3,
     "userCooldown": 3,
     "offlineOnly": false,
-    "blacklistedUsers": [
-      ""
-    ],
+    "blacklistedUsers": [],
     "usage": "-yoink 'emotename' '#channel'",
-    "description": "yoinks an emote from another channel"
+    "description": "yoinks an emote from another channel",
+    "category": "7tv"
   }
 ]
