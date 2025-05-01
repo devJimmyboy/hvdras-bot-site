@@ -18,13 +18,13 @@ export default function AppLayout({}: Props) {
             className="text-lg rounded-lg"
             active={location.pathname === '/'}
             label="Home"
-            leftSection={<img src="https://cdn.7tv.app/emote/01GQS0ES780009VDYS78D30Z8Z/1x.png" />}></NavLink>
+            leftSection={<img className="hidden md:inline-block" src="https://cdn.7tv.app/emote/01GQS0ES780009VDYS78D30Z8Z/1x.png" />}></NavLink>
           <NavLink
             href="/commands"
             className="text-lg rounded-lg"
             active={location.pathname === '/commands'}
             label="Commands"
-            leftSection={<img src="https://cdn.7tv.app/emote/01FJAV4EJG000FZHS49NWQRPND/1x.gif" />}></NavLink>
+            leftSection={<img className="hidden md:inline-block" src="https://cdn.7tv.app/emote/01FJAV4EJG000FZHS49NWQRPND/1x.gif" />}></NavLink>
         </Box>
       </Box>
       <Box className="flex-grow overflow-hidden">
