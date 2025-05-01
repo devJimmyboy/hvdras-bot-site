@@ -8,7 +8,7 @@ export default function HomePage({}: Props) {
       <img src="https://cdn.7tv.app/emote/01HNK8DGF0000FG935RNS75APG/4x.png" alt="Logo" className="w-32 h-32 rounded-lg drop-shadow-lg drop-shadow-black/60" />
       <div className="text-4xl font-bold text-shadow-md text-shadow-black text-white">Hvdras Bot</div>
       <div className="text-2xl font-bold text-shadow-md text-shadow-black">a dumbassbitchassidiot bot</div>
-      <div className="text-2xl font-bold text-shadow-md text-shadow-black mt-4">
+      <div className="text-2xl font-bold text-shadow-md text-shadow-black mt-4 text-center">
         Type{' '}
         <Code style={{ fontSize: '1.5rem' }} className=" text-gray-500">
           -join
@@ -19,7 +19,7 @@ export default function HomePage({}: Props) {
         </Anchor>{' '}
         to get started
       </div>
-      <div className="text-2xl font-bold text-shadow-md text-shadow-black mt-4">
+      <div className="text-2xl font-bold text-shadow-md text-shadow-black mt-4 text-center">
         Type{' '}
         <Code style={{ fontSize: '1.5rem' }} className=" text-gray-500">
           -part
