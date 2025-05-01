@@ -1,5 +1,4 @@
-import { Center, Stack, Text } from '@mantine/core'
-import React from 'react'
+import { Stack } from '@mantine/core'
 
 type Props = {}
 

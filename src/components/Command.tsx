@@ -1,4 +1,3 @@
-import React from 'react'
 import { Accordion, Code } from '@mantine/core'
 export interface Command {
   name: string

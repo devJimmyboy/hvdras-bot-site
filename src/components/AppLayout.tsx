@@ -1,6 +1,4 @@
-import { Icon } from '@iconify/react'
-import { Box, Container, Group, NavLink, ScrollArea, Space, Stack } from '@mantine/core'
-import React from 'react'
+import { Box, Container, NavLink, ScrollArea, Space } from '@mantine/core'
 import { Outlet, useLocation } from 'react-router'
 
 type Props = {}
