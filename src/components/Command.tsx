@@ -24,7 +24,7 @@ export default function CommandAccordion({ command }: Props) {
     <Accordion.Item value={command.name}>
       <Accordion.Control className="flex flex-row justify-between hover:bg-white/10">
         <div className="flex flex-row gap-2 m-0.5 items-center">
-          <Code className="border" style={{ fontSize: '14px', fontWeight: 'bold' }}>
+          <Code className="border whitespace-nowrap w-fit overflow-hidden!" style={{ fontSize: '14px', fontWeight: 'bold' }}>
             -{command.name}
           </Code>
           <span className="text-gray-500">{command.description}</span>
