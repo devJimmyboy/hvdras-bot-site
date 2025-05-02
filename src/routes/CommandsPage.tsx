@@ -23,6 +23,7 @@ export default function CommandsPage({}: Props) {
       })
       data.forEach((command: Command) => {
         if (command.category) {
+          if (command.category === 'hidden') return
           categories.add(command.category)
           if (!commandsByCategory[command.category]) {
             commandsByCategory[command.category] = []
