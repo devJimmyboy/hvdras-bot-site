@@ -37,7 +37,7 @@ export default function CommandsPage({}: Props) {
       setLoading(false)
     }
     fetchCommands()
-  })
+  }, [])
   return (
     <div>
       {loading ? (
